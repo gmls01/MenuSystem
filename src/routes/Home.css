@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-weight: bold;
+}
+  
+html{
+  height: 100vh;
+}
+  
+/*Cabeçalho*/
+.navbar{
+  display: flex;
+  justify-content: center;
+  height: 9vh;
+  background-color: rgba(255, 0, 0, 0.74);
+  box-shadow: 0 5px 0 0 #00000036;
+}
+  
+.navbar img{
+  height: 6.5vh;
+  margin: 1vh 0 1vh 0;
+}
+  
+/*Corpo/Principal*/  
+.principal h1{
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 3.3vh 1vh 1vh 1vh;
+}
+  
+.linha{
+  margin: 2vh auto; 
+  background-color: rgba(0, 0, 0, 0.295);
+  height: 0.5vh;
+  width: 90vw;
+}
+  
+/*Icons*/
+.div-icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+  
+.div-icons .matinal{
+  border-radius: 70px;
+  border: 5px solid rgb(211, 211, 211);
+  margin-right: 5vw;
+}
+  
+.div-icons .matinal:hover{
+  border: 5px solid rgba(255, 0, 0, 0.445);
+}
+  
+.div-icons .matinal img{
+  height: 10vh;
+  margin: 3vw;
+}
+  
+.div-icons .refeicoes{
+  border-radius: 70px;
+  border: 5px solid rgb(211, 211, 211);
+  margin-left: 5vw;
+}
+  
+.div-icons .refeicoes:hover{
+  border: 5px solid rgba(255, 0, 0, 0.445);
+}
+  
+.div-icons .refeicoes img{
+  height: 10vh;
+  margin: 3vw;
+}
+  
+.div-icons-titulo{
+  display: flex;
+  justify-content: center;
+}
+  
+.div-icons-titulo h1{
+  margin-left: 10vw;
+  margin-right: 7vw;
+  font-size: 1.1rem;
+}
+  
+.div-icons .happy-hour{
+  border-radius: 70px;
+  border: 5px solid rgb(211, 211, 211);
+  margin-right: 5vw;
+}
+  
+.div-icons .happy-hour:hover{
+  border: 5px solid rgba(255, 0, 0, 0.445);
+}
+  
+.div-icons .happy-hour img{
+  height: 10vh;
+  margin: 3vw;
+}
+  
+.div-icons-titulo2{
+  margin-right: 4.5vw;
+}
+  
+/*Rodapé*/
+.rodape{
+  bottom: 0; 
+  width: 100%;
+  background-color: black;
+  height: 14vh;
+  margin-top: 3vh;
+}
+  
+.titulo-rodape h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding-top: 2vh;
+}
+  
+.links-rodape{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vh;
+  height: 2vh;
+}
+  
+.links-rodape img{
+  height: 4vh;
+  margin: 2vw;
+}
+  
+/*Fontes*/
+@font-face {
+  font-family: Inter;
+  src: url('/src/font/Inter.ttc');
+}
+  

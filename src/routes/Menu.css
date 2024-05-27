@@ -1,0 +1,275 @@
+
+/*Corpo/Principal*/
+.principal-cima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0vw;
+}
+
+.principal-cima .seta{
+    height: 6vh;
+    margin-top: 0.5vh
+}
+
+.principal-cima h1{
+    font-size: 3.5vh;
+    margin: 0vh 10vw 0vh 10vw;
+    
+}
+
+.principal-cima .menu{
+    height: 4.5vh;
+}
+
+/*Barra de seleção*/
+.barra-opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-opcoes a{
+    cursor: pointer;
+    margin: 2vw;
+}
+
+
+.barra-opcoes .opcao{
+    text-decoration: none;
+    color: black;
+    font-size: 2.2vh;
+} 
+
+.barra-opcoes-happyhour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0vh 20vw 0vh 20vw;
+}
+
+.barra-opcoes-happyhour a{
+    cursor: pointer;
+}
+
+.barra-opcoes-happyhour .opcao{
+    text-decoration: none;
+    color: black;
+    font-size: 2.2vh;
+} 
+
+/*Box de itens*/
+.box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(153, 153, 153, 0.671);
+    padding: 1vh 2vw 1vh 2vw;
+    margin: 1.5vh 7vw 0vh;
+    font-size: 2.2vh;
+}
+
+
+.box-main{
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.753);
+    padding: 1vh 0vw 1vh 2vw;
+    margin: 0vh 7vw 0vh;
+    font-size: 2vh;
+}
+
+.box-main p{
+    margin: 0.8vw;
+    color: rgb(133, 133, 133);
+}
+
+.box-button{
+    display: flex;
+    justify-content: end;
+    margin: 4vh 2vw 0vh;
+}
+
+.box-button button{
+    margin: 0vh 1vw 0vh;
+    font-size: 1.8vh;
+}
+
+.box-button span{
+    font-size: 2.2vh;
+}
+
+.button-adicionar{
+    background-color: rgba(255, 0, 0, 0.658);
+    color: rgba(0, 0, 0, 0.932);
+    padding: 0.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+.button-adicionar:hover{
+    background-color: rgba(255, 0, 0, 0.219);
+    
+}
+
+.button-remover{
+    background-color: rgba(153, 153, 153, 0.671);
+    color: rgba(0, 0, 0, 0.932);
+    padding: 0.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+.button-remover:hover{
+    background-color: rgba(153, 153, 153, 0.288);
+    
+}
+
+.button-limpar{
+    background-color: rgba(153, 153, 153, 0.671);
+    color: rgba(0, 0, 0, 0.932);
+    padding: 0.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+.button-limpar:hover{
+    background-color: rgba(153, 153, 153, 0.288);
+}
+
+/*Pedidos*/
+.principal-cima-finalizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3vh 0vw;
+}
+
+.principal-cima-finalizar .seta{
+    height: 6vh;
+    margin-top: 0.5vh;
+    margin-right: 12vw; 
+}
+
+.principal-cima-finalizar h1{
+    font-size: 3.5vh;
+    margin: 0vh 22vw 0vh 0vw;
+    
+}
+
+.pedido-lista {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  
+.pedido-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+  
+.pedido-item p, .pedido-item span {
+   margin: 0;
+   
+}
+  
+.pedido-item p {
+    flex: 1;
+}
+  
+.pedido-item span {
+    flex: 1;
+    text-align: center;
+    margin-right: -5vw;
+}
+  
+.pedido-item p:last-of-type {
+    flex: 1;
+    text-align: right;
+    margin-right: 8vw;
+}
+
+.barra-pedido {
+    display: flex;
+    justify-content: space-around; /* Distribui igualmente o espaço ao redor dos itens */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 10px; /* Adiciona algum espaçamento interno */
+    background-color: rgba(217, 217, 217, 0.753);
+    border: 1px solid #ddd;
+}
+  
+.barra-pedido .opcao {
+    margin: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.popup-cancelado {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid darkred;
+    border-radius: 5px;
+}
+
+.botoes-pedido {
+    display: flex;
+    justify-content: center;
+}
+.button-cancelar {
+    background-color: rgb(255, 187, 17);
+    color: rgb(0, 0, 0);
+    padding: 2vw;
+    border: none;
+    cursor: pointer;
+    font-size: 2.2vh;
+    margin: 5vw;
+}
+
+
+.button-finalizar {
+    background-color: rgb(255, 187, 17);
+    color: rgb(0, 0, 0);
+    padding: 2vw;
+    border: none;
+    cursor: pointer;
+    font-size: 2.2vh;
+    margin: 5vw;
+}
+
+
+/*Fontes*/
+@font-face {
+    font-family: Inter;
+    src: url('/src/font/Inter.ttc');
+}
+
+/*Função para troca de telas*/
+.objeto {
+    display: block;
+}
+  
+.oculto {
+    display: none;
+}
